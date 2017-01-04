@@ -1,17 +1,15 @@
 # WEBSITE QUẢN LÝ KHO VỚI MEAN STACK
 
 ## I. Tổng quan
----
 
 Ứng dụng giúp doanh nghiệp quản lý tình hình nhập – xuất – tồn kho theo chủng loại, nhóm và chi tiết đến từng vật tư, hàng hóa trong nhiều kho. Phần mềm đáp ứng tất cả các phương pháp tính giá xuất kho và cung cấp đầy đủ các biểu mẫu Phiếu xuất kho, Phiếu nhập kho, Thẻ kho, các Sổ tổng hợp tồn kho, Sổ chi tiết vật tư, hàng hóa,... theo quy định.
 
 Ngoài ra phần mềm còn có nhiều tính năng, tiện ích đặc biệt, phù hợp với đặc thù quản lý kho của doanh nghiệp thuộc mọi lĩnh vực như: Theo dõi hàng hóa có nhiều đặc tính( màu sắc, kích cỡ…), theo số lô hạn dùng, có nhiều đơn vị tính, lập biên bản kiểm kê, kiểm soát xuất kho theo định mức, thiết lập mức tồn kho tối thiểu cho từng vật tư, hàng hóa...
 
 ## II. Quy trình nghiệp vụ
----
+
 
 ## III. Các chức năng của sản phẩm
----
 
 ### 1. Hệ thống quản lý và phân quyền người dùng
 Quản lý và phân quyền cho các tải khoản và vai trò người dùng trong hệ thống:
@@ -68,5 +66,14 @@ Thực hiện tính giá xuất kho tự động theo phương pháp đã đư�
 * Tính giá theo loại, nhóm vật tư hàng hóa.
 
 ### 8. Thực hiện nghiệp vụ kiểm kê
-### 6. Tự động cảnh báo các thông báo quan trọng
+Cho phép lập các biên bản kiểm kê vật tư hàng hóa dựa trên:
+* Thông tin các cá nhân tham gia kiểm kê.
+* So sánh sổ chi tiết vật tư hàng hóa của kế toán và sổ kho (thẻ kho) của thủ kho.
+* Kết luận các chênh lệch cần xử lý.
+
+### 6. Tự động đưa ra cảnh báo cho các thông báo quan trọng
+Đưa ra các thông báo khi hàng hóa vượt định mức xuất/nhập để kế toán hoặc quản lý đưa ra các điều chỉnh kịp thời và phù hợp.
+
 ### 9. Bảo trì hệ thống
+* Cho phép quản trị viên thực hiện các thao tác sao lưu, phục hồi dữ liệu hệ thống.
+* Dọn dẹp các dữ liệu tạm, dữ liệu rác sinh ra trong quá trình vận hành.
